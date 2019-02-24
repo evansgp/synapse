@@ -20,6 +20,7 @@ services:
       - db
     ports:
       - 443:8448/tcp
+      - 8448:8448/tcp
 
   db:
     image: docker.io/postgres:10-alpine
